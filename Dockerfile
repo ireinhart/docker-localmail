@@ -1,7 +1,5 @@
 FROM node
 MAINTAINER Ingo Reinhart <ingo.reinhart@gmail.com>
-ADD . /app
-WORKDIR /app
-RUN npm install -g hoodiecrow
+RUN npm install -g hoodiecrow && rm -rf /tmp* /root/.npm
 EXPOSE 25 143
 CMD [ "hoodiecrow", "-d", "--smtpPort=25", "--port=143"]
