@@ -1,4 +1,4 @@
-# docker-localmail
+# hoodiecrow imap docker image
 
 To provide the SMTP and IMAP server this image use hoodiecrow-imap from [andris9.github.io/hoodiecrow](http://andris9.github.io/hoodiecrow).
 Using version 2.1.0.
